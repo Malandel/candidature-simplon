@@ -9,21 +9,113 @@ header{
 	background-image: url("original.jpg");
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .titre_entete{
 	text-align: center;
+	background-color: rgba(222, 114, 147, 0.6);
+	width: 20%;
 }
 
-nav{
+
+.navigation ul{
 	display: flex;
+	flex-direction: row;
 	align-items: center;
+	list-style-type: none;
+	padding: 0;
+}
+
+.navigation li{
+	margin-right: 10%;
+}
+
+.navigation p{
+	color: #EDE3C4;
+}
+
+.navigation a{
+	text-decoration: underline;
+	font-family: "Cinzel", serif;
+	color: black;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.navigation a:hover{
+	font-weight: bold;
+	background-color: rgba(222, 114, 147, 0.6);
+	text-decoration: overline;
 }
 
 
 main{
 	padding: 2% 2% 2% 2%;
+}
+
+main p, li{
+	font-family: 'EB Garamond', serif;
+	font-size: 1.1em;
+	text-align: justify;
+
+}
+
+h1{
+	font-family: "Cinzel", serif;
+	font-weight: 600;
+}
+
+h2{
+	font-family: 'Cinzel', serif;
+	font-weight: 500;
+	border-bottom: solid rgb(222, 114, 147) 1px;
+}
+
+h3{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 400;
+	text-decoration: underline;
+	font-size: 1.5em;
+
+}
+
+.accueil a{
+	color:black;
+}
+
+.accueil a:hover{
+	color:rgb(222, 114, 147);
+	cursor:pointer;
+}
+
+
+.profil{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.mes-plus {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin:2% 4% 2% 4%;
+	padding: 2% 2% 2% 2%;
+	border : dashed rgb(222, 114, 147) 2px;
+	width: 50%;
+}
+
+.mes-moins {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin:2% 4% 2% 4%;
+	padding: 2% 2% 2% 2%;
+	border : dashed rgb(222, 114, 147) 2px;
+	width: 50%;
 }
 
 .affiches img{
