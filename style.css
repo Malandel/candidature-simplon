@@ -146,11 +146,14 @@ h3{
 	text-indent: 4%;
 }
 
-.barbebleue{
-	width: 50%;
-	height: auto;
+.barbe-bleue{
+	width: 600px;
+	height: 340px;
+	border:solid rgb(222, 114, 147) 3px;
 }
 
-.barblue{
+.video-barbe-bleue{
 	text-align: center;
+
 }
+
