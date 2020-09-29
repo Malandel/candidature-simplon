@@ -1,0 +1,64 @@
+body{
+	background-color: #FEF0FC;
+}
+
+header{
+	border-bottom: solid red 1px;
+	margin : 0;
+	padding: 0;
+	background-image: url("original.jpg");
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.titre_entete{
+	text-align: center;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+}
+
+
+main{
+	padding: 2% 2% 2% 2%;
+}
+
+.affiches img{
+	width:15%;
+	height: auto;
+	margin: 2% 2% 2% 2%;
+}
+
+.affiches{
+	text-align: center;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.communiques img{
+	width:25%;
+	height: auto;
+	margin: 2% 2% 2% 2%;
+}
+
+.communiques{
+	text-align: center;
+	display: table-cell;
+    vertical-align: middle;
+}
+.legende{
+	font-style: italic;
+	text-indent: 4%;
+}
+
+.barbebleue{
+	width: 50%;
+	height: auto;
+}
+
+.barblue{
+	text-align: center;
+}
