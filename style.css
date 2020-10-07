@@ -45,6 +45,7 @@ header{
 	color: black;
 	font-weight: 700;
 	font-size: 1.2em;
+	background-color: rgba( 241, 218, 236, 0.6);
 }
 
 .navigation a:hover{
