@@ -3,7 +3,7 @@ body{
 }
 
 header{
-	border-bottom: solid red 1px;
+	border-bottom: solid  rgba(222, 114, 147)  1px;
 	margin : 0;
 	padding: 0;
 	background-image: url("original.jpg");
@@ -16,8 +16,12 @@ header{
 	text-align: center;
 	background-color: rgba(222, 114, 147, 0.6);
 	width: 20%;
+	box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.53);
+	text-shadow: 3px 3px 4px rgba(150, 150, 150, 1);
 }
-
+.titre_entete h2{
+	border-style : none;
+}
 
 .navigation ul{
 	display: flex;
@@ -39,12 +43,12 @@ header{
 	text-decoration: underline;
 	font-family: "Cinzel", serif;
 	color: black;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 1.2em;
 }
 
 .navigation a:hover{
-	font-weight: bold;
+	font-weight: 900;
 	background-color: rgba(222, 114, 147, 0.6);
 	text-decoration: overline;
 }
@@ -88,7 +92,6 @@ h3{
 	color:rgb(222, 114, 147);
 	cursor:pointer;
 }
-
 
 .profil{
 	display: flex;
@@ -144,16 +147,38 @@ h3{
 .legende{
 	font-style: italic;
 	text-indent: 4%;
+	margin-bottom: 50px;
 }
 
-.barbe-bleue{
-	width: 600px;
-	height: 340px;
-	border:solid rgb(222, 114, 147) 3px;
+footer{
+	background-image: url("original.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
 }
 
-.video-barbe-bleue{
+footer p{
+	width: auto;
+	height:60px;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.1em;
+	font-weight: bold;
 	text-align: center;
-
+	display: flex;
+	align-items: center;
 }
+.bonus{
+	color: black;
+	font-weight: bold;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.4em;
+	text-align: center;
+}
+.bonus:hover{
+	font-weight: bolder;
+	background-color: rgba(222, 114, 147, 0.6);
+	text-decoration: overline;
+}
+
 
